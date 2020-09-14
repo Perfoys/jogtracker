@@ -1,0 +1,88 @@
+@import url("../colors.css");
+@import url("../fonts.css");
+
+.Form-content {
+    height: calc(100vh - 116px);
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.Form-block {
+    margin: 0 auto;
+    width: 503px;
+    height: 379px;
+    border-radius: 44px;
+    background-color: var(--apple-green);
+}
+.Form-exit {
+    height: 27px;
+    margin: 24px 27px;
+}
+.Form-line {
+    margin: 25px 89px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cancel {
+    float: right;
+}
+.Form-label {
+    width: 73.8px;
+    height: 19px;
+    font-family: SFUIText;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: start;
+}
+.Form-input {
+    width: 236px;
+    height: 31px;
+    border-radius: 7px;
+    border: solid 1px #979797;
+    background-color: var(--white-two);
+}
+.Form-button {
+    margin: 21px 0;
+    width: 320px;
+    height: 42px;
+    border-radius: 25.2px;
+    border: solid 2px var(--white-two);
+    background-color: var(--apple-green);
+}
+
+@media screen and (max-width: 768px) {
+    .Form-block {
+        margin: 0 auto;
+        width: 402px;
+        height: 500px;
+    }
+    .Form-line {
+        margin: 15px 89px;
+        width: 236px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .Form-button {
+        width: 236px;
+        margin: 40px 0;
+    }
+    .form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Form-input {
+        margin-top: 5px;
+    }
+    .cancel {
+        height: 20px;
+    }
+    .Form-exit {
+        margin: 24px 24px;
+    }
+}

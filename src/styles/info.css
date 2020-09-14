@@ -1,0 +1,36 @@
+@import url("../fonts.css");
+@import url("../colors.css");
+
+.Info-content {
+    height: calc(100vh - 116px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: SFUIText;
+    text-align: start;
+    padding: 2%;
+}
+.Info-content h1 {
+    color: var(--apple-green);
+    font-size: 36px;
+    width: 100%;
+    display: inline-block;
+    
+}
+.Info-content p {
+    margin: 0 0 40px 0;
+    line-height: 1.71;
+}
+.Info-content div {
+    max-width: 700px;
+}
+
+@media screen and (max-width: 768px) {
+    .Info-content p {
+        font-size: 12px;
+        line-height: 24px;
+    }
+    .Info-content div {
+        max-width: 400px;
+    }
+}

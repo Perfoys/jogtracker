@@ -1,0 +1,28 @@
+@import '../colors.css';
+@import '../fonts.css';
+
+.Start-content {
+    padding: 2%;
+}
+.Container {
+    padding: 60px 10px;
+    margin: 200px auto;
+    width: 483px;
+    height: 259px;
+    border-radius: 44px;
+    background-color: var(--baby-purple);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.Letme-button {
+    width: 151px;
+    height: 60px;
+    border-radius: 36px;
+    border: solid 3px var(--white-two);
+    background-color: var(--baby-purple);
+    font-family: SFUIText;
+    font-size: 18px;
+    color: var(--white-two);
+}
