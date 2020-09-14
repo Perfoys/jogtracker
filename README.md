@@ -1,2 +1,0 @@
-# jogtracker
-SPA jog tracker
